@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilkhush Kumar | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">DK.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="\image\dp.png" alt="Dilkhush Kumar" class="profile-photo">
+                <h1>Dilkhush Kumar</h1>
+                <p class="tagline">Aspiring Data Scientist | Computer Science Engineer</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <p>
+                    I am a passionate Computer Science Engineering student with a strong interest in Data Science.
+                    My goal is to leverage data to build intelligent solutions that solve real-world problems. I
+                    thrive on challenges and am constantly learning new technologies to enhance my skills.
+                </p>
+                <h3>Education</h3>
+                <p><strong>B.Tech in Computer Science & Engineering</strong> - Baba Banda Singh Bahadur Engineering
+                    College, Fatehgarh sahib(Punjab)</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+            </div>
+            <div class="project-gallery">
+                <div class="project-card" data-category="web">
+                    <img src="/image/demo.png" alt="Event Management System">
+                    <div class="project-info">
+                        <h3>Event Management System</h3>
+                        <p>A full-stack web application designed to simplify the organization and management of events.
+                            It allows users to create, update, and manage events and track participation. Built with
+                            MERN stack technologies.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Dilkhushkumarcse/Event-management-system_2" target="_blank"><i
+                                    class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="project-card" data-category="web data">
+                    <img src="/image/market.jpg" alt="Local Farmer's Market">
+                    <div class="project-info">
+                        <h3>Local Farmer’s Direct Market</h3>
+                        <p>A web-based platform that connects local farmers directly with consumers, eliminating
+                            middlemen and ensuring fair trade. Farmers can list fresh produce, while consumers can
+                            browse, purchase, and support local agriculture.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai">
+                    <img src="/image/ai.webp" alt="AI Clinic Project">
+                    <div class="project-info">
+                        <h3>AI-powered medical data classification</h3>
+                        <p class="project-text">
+                            <span class="short-text">
+                                An AI/ML-driven application that classifies and analyzes medical data
+                                to assist in diagnosis and healthcare decision-making.
+                            </span>
+                            <span class="more-text" style="display:none;">
+                                Using machine learning algorithms and data preprocessing techniques,
+                                the system can detect patterns in medical datasets and predict outcomes
+                                with high accuracy.
+                            </span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                        <div class="project-links">
+                            <a href="https://github.com/Dilkhushkumarcse/AIcabin" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>C++</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js & Express.js</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Science</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience & Achievements</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>3rd Place - tack-titan Hackathon</h3>
+                    <p>Developed an innovative solution for farmers within 24 hours, earning a podium finish among
+                        50+ teams.</p>
+                    <span class="date">[Date]</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>Academic Excellence Award</h3>
+                    <p>Recognized for outstanding academic performance, maintaining a GPA of 8.68.</p>
+                    <span class="date">July 2024</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>Web Dev Intern - Novem Controls</h3>
+                    <p>Contributed to the development of a client-facing web application using modern JavaScript
+                        frameworks.</p>
+                    <span class="date">June 2024</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Latest Posts</h2>
+            <div class="blog-carousel-container">
+                <div class="blog-carousel-track">
+                    <div class="blog-post">
+                        <div class="blog-post-header">
+                            <h3>Understanding Neural Networks</h3>
+                            <i class="fas fa-expand fullscreen-btn" title="Read Fullscreen"></i>
+                        </div>
+                        <p class="blog-text">
+                            <span class="short-text">A deep dive into the fundamentals of neural networks and how they
+                                power modern AI. We'll explore the basic building blocks, like neurons and
+                                layers...</span>
+                            <span class="more-text"> and then move on to more complex architectures such as
+                                Convolutional Neural Networks (CNNs) for image recognition and Recurrent Neural Networks
+                                (RNNs) for sequence data. This post is perfect for beginners looking to grasp the core
+                                concepts.</span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                    <div class="blog-post">
+                        <div class="blog-post-header">
+                            <h3>Top 5 Libraries for Data Science in Python</h3>
+                            <i class="fas fa-expand fullscreen-btn" title="Read Fullscreen"></i>
+                        </div>
+                        <p class="blog-text">
+                            <span class="short-text">Exploring the essential Python libraries like Pandas, NumPy, and
+                                Scikit-learn for any data scientist. These tools are the bedrock of modern data
+                                analysis...</span>
+                            <span class="more-text"> allowing for efficient data manipulation, numerical computation,
+                                and machine learning model implementation. We will also touch upon Matplotlib and
+                                Seaborn for data visualization, which are crucial for communicating insights
+                                effectively.</span>
+                        </p>
+
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                    <div class="blog-post">
+                        <div class="blog-post-header">
+                            <h3>The Future of Web Development</h3>
+                            <i class="fas fa-expand fullscreen-btn" title="Read Fullscreen"></i>
+                        </div>
+                        <p class="blog-text">
+                            <span class="short-text">Trends to watch in web development, from serverless architecture to
+                                WebAssembly. The web is constantly evolving, and staying ahead of the curve is
+                                key...</span>
+                            <span class="more-text"> We'll discuss the rise of Jamstack, the increasing importance of
+                                edge computing, and how AI-powered tools are changing the way we build websites and
+                                applications, making development faster and more intelligent. </span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                    <div class="blog-post">
+                        <div class="blog-post-header">
+                            <h3>The Future of Web Development</h3>
+                            <i class="fas fa-expand fullscreen-btn" title="Read Fullscreen"></i>
+                        </div>
+                        <p class="blog-text">
+                            <span class="short-text">Trends to watch in web development, from serverless architecture to
+                                WebAssembly. The web is constantly evolving, and staying ahead of the curve is
+                                key...</span>
+                            <span class="more-text"> We'll discuss the rise of Jamstack, the increasing importance of
+                                edge computing, and how AI-powered tools are changing the way we build websites and
+                                applications, making development faster and more intelligent. </span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+                <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dilkhush-kumar-b58664273/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/Dilkhushkumarcse" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="mailto:dilkhush4kr@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+                <a href="https://www.instagram.com/mr_dilkhush_45/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dilkhush Kumar. All rights reserved.</p>
+    </footer>
+
+    <!-- Fullscreen Modal -->
+    <div id="fullscreenModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
